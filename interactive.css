@@ -1,0 +1,98 @@
+:root{
+--Orange500: hsl(25, 97%, 53%);
+--White: hsl(0, 100%, 100%);
+--Grey500: hsl(217, 12%, 63%);
+--Grey900: hsl(213, 19%, 18%);
+--Grey950: hsl(216, 12%, 8%);
+}
+*{
+    border: 0px;
+}
+button{cursor: pointer;}
+
+ .all, .attribution{
+    transform: translateY(150px);
+ }
+body{
+    background-color: var(--Grey950);
+
+}
+.all{
+    background-color: var(--Grey900);
+    width: 310px;
+    height: 340px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+h1{ 
+    color: var(--White);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: var(--Grey500);
+    font-family:cursive;
+}
+.btns{
+    margin-top: 30px;
+    text-align: center;
+}
+.btns button{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 10px;
+    background-color: var(--Grey500);
+}
+.btns button:hover{
+    background-color: var(--Orange500);
+}
+
+.all button.sub{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: var(--Orange500);
+    color: var(--Grey900);
+    padding: 5px;
+}
+button.sub:hover{
+    background-color: var(--White);
+}
+
+    .attribution { font-size: 0.6875rem; text-align: center;
+               }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.active{
+    background-color: var(--White);
+}
+
+.thx{
+    text-align: center;
+    background-color: var(--Grey900);
+    width: 300px;
+    height: 320px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    transform: translateY(150px);
+    display: none;
+}
+.thx img{
+    padding: 10px;
+}
+.thx .r{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 200px;
+    color: var(--Orange500);
+    border-radius: 20px;
+    background-color:rgb(75, 74, 74);
+}
+.thx p{font-size: small;
+       width: 300px;
+ }
